@@ -31,6 +31,14 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+/* Define styles for smaller screens */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 6rem;
+    }
+}
+
 form {
     box-shadow: 0 10px 10px rgba(26, 2, 2, 0.1);
 
@@ -76,7 +84,7 @@ form {
   }
   
   small {
-    color: #b5b5b5;
+    color: #2c2c2c;
     margin-top: 3rem;
     text-align: center;
     opacity: .6;
